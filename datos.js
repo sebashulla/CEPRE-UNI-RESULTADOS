@@ -1,4 +1,3 @@
-// Datos generados automáticamente desde resultados.csv
 const datosCSV = [
   {
     "Merito": 1,
