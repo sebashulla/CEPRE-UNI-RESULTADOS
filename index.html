@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Resultados PC1 CEPRE UNI 2026-II</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        :root {
+            /* Paleta de colores principal */
+            --primary-color: #2563eb; /* Azul brillante */
+            --primary-dark: #1e40af;
+            --bg-color: #f1f5f9; /* Gris muy claro azulado */
+            --surface-color: #ffffff;
+            --text-main: #1e293b; /* Pizarra oscuro */
+            --text-muted: #64748b;
+            --border-color: #e2e8f0;
+            
+            /* Colores de estado (Rendimiento) */
+            --status-high-bg: #dcfce7;
+            --status-high-border: #22c55e;
+            --status-mid-bg: #ffffff;
+            --status-low-bg: #fee2e2;
+            --status-low-border: #ef4444;
+            --status-highlight-bg: #fef9c3;
+            --status-highlight-border: #eab308;
+
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -2px rgba(0,0,0,0.025);
+            
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-full: 9999px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            padding: 2rem 1rem;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* --- Encabezado --- */
+        .hero {
+            margin-bottom: 3rem;
+            text-align: center;
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            letter-spacing: -0.5px;
+        }
+
+        .hero h1 i {
+            color: var(--primary-color);
+            font-size: 2rem;
+        }
+
+        .hero p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        /* --- Tarjetas de estadísticas --- */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .stat-card {
+            background: var(--surface-color);
+            border-radius: var(--radius-md);
+            padding: 1.5rem 1rem;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: #cbd5e1;
+        }
+
+        .stat-card h3 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            line-height: 1;
+        }
+
+        /* --- Controles: Búsqueda y Orden --- */
+        .controls {
+            background: var(--surface-color);
+            border-radius: var(--radius-lg);
+            padding: 1rem 1.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border-color);
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+            display: flex;
+            align-items: center;
+            background: var(--bg-color);
+            border-radius: var(--radius-full);
+            padding: 0.6rem 1.2rem;
+            border: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .search-box:focus-within {
+            background: var(--surface-color);
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .search-box i {
+            color: var(--text-muted);
+            margin-right: 0.75rem;
+            font-size: 1.1rem;
+        }
+
+        .search-box input {
+            background: transparent;
+            border: none;
+            width: 100%;
+            font-size: 0.95rem;
+            outline: none;
+            color: var(--text-main);
+            font-family: inherit;
+        }
+        
+        .search-box input::placeholder {
+            color: #94a3b8;
+        }
+
+        .order-buttons {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .order-btn {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-full);
+            font-weight: 500;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .order-btn i {
+            font-size: 1rem;
+            color: var(--text-muted);
+            transition: color 0.2s ease;
+        }
+
+        .order-btn.active {
+            background: var(--primary-dark);
+            color: white;
+            border-color: var(--primary-dark);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .order-btn.active i {
+            color: white;
+        }
+
+        .order-btn:hover:not(.active) {
+            background: var(--bg-color);
+            border-color: #cbd5e1;
+        }
+
+        /* --- Tarjeta de Comparación --- */
+        .comp-card {
+            background: linear-gradient(to right, #ffffff, #f8fafc);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            border: 1px solid var(--primary-color);
+            box-shadow: var(--shadow-md);
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .comp-info {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            flex-wrap: wrap;
+        }
+        
+        .comp-info .icon-wrapper {
+            background: #eff6ff;
+            color: var(--primary-color);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .comp-info-text strong {
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+        }
+
+        .comp-info-text {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .comp-badge {
+            background: var(--primary-color);
+            color: white;
+            padding: 0.5rem 1.25rem;
+            border-radius: var(--radius-full);
+            font-weight: 600;
+            font-size: 0.9rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* --- Tabla --- */
+        .table-wrapper {
+            overflow-x: auto;
+            background: var(--surface-color);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--border-color);
+            margin-bottom: 2rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+            text-align: left;
+        }
+
+        th {
+            padding: 1.25rem 1.5rem;
+            background: #f8fafc;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+            border-bottom: 2px solid var(--border-color);
+            user-select: none;
+        }
+
+        th i {
+            margin-left: 0.4rem;
+            font-size: 0.75rem;
+            opacity: 0.5;
+        }
+
+        td {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-main);
+            transition: background-color 0.2s ease;
+        }
+
+        tbody tr {
+            cursor: pointer;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f5f9 !important; /* Override status colors on hover for interaction feedback */
+        }
+        
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Colores de fila según rendimiento */
+        .row-alto {
+            background-color: var(--status-high-bg);
+            border-left: 4px solid var(--status-high-border);
+        }
+        .row-medio {
+            background-color: var(--status-mid-bg);
+            border-left: 4px solid transparent; /* Para mantener alineación */
+        }
+        .row-bajo {
+            background-color: var(--status-low-bg);
+            border-left: 4px solid var(--status-low-border);
+        }
+        tr.highlight {
+            background-color: var(--status-highlight-bg) !important;
+            border-left: 4px solid var(--status-highlight-border);
+            font-weight: 500;
+        }
+
+        /* Formato de celdas específicas */
+        td:nth-child(1) { font-weight: 600; color: var(--text-muted); } /* Mérito */
+        td:nth-child(3) { font-family: monospace; font-size: 1rem; } /* Código */
+        td:nth-child(5) { font-weight: 700; color: var(--primary-dark); } /* Nota S/20 */
+
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .legend {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        .dot.high { background: var(--status-high-border); }
+        .dot.mid { background: #cbd5e1; border: 1px solid #94a3b8; }
+        .dot.low { background: var(--status-low-border); }
+
+        /* --- Animaciones --- */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* --- Responsive --- */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.6rem; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .controls { flex-direction: column; align-items: stretch; padding: 1rem; }
+            .search-box { width: 100%; }
+            .order-buttons { justify-content: center; }
+            th, td { padding: 0.8rem 1rem; font-size: 0.85rem; }
+            td:nth-child(3) { font-size: 0.85rem; } /* Achicar fuente monospace en movil */
+        }
+        
+        @media (max-width: 480px) {
+            .stats-grid { grid-template-columns: 1fr; }
+            .comp-info { flex-direction: column; align-items: flex-start; text-align: left;}
+            .comp-badge { width: 100%; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="hero">
+        <h1><i class="bi bi-bar-chart-fill"></i> Resultados PC1 CEPRE UNI</h1>
+        <p>Ciclo 2026-II · Ranking y análisis estadístico en escala vigesimal</p>
+    </div>
+
+    <div class="stats-grid" id="statsContainer">
+        <div class="stat-card"><h3>Promedio (S/20)</h3><div class="value">-</div></div>
+        <div class="stat-card"><h3>Mediana</h3><div class="value">-</div></div>
+        <div class="stat-card"><h3>Máximo</h3><div class="value">-</div></div>
+        <div class="stat-card"><h3>Mínimo</h3><div class="value">-</div></div>
+        <div class="stat-card"><h3>Desv. Estándar</h3><div class="value">-</div></div>
+        <div class="stat-card"><h3>Total registros</h3><div class="value">-</div></div>
+    </div>
+
+    <div class="controls">
+        <div class="search-box">
+            <i class="bi bi-search"></i>
+            <input type="text" id="searchInput" placeholder="Buscar por código, sección o mérito...">
+        </div>
+        <div class="order-buttons">
+            <button class="order-btn" data-order="desc"><i class="bi bi-sort-down"></i> Mayor Nota</button>
+            <button class="order-btn" data-order="asc"><i class="bi bi-sort-up"></i> Menor Nota</button>
+            <button class="order-btn active" data-order="reset"><i class="bi bi-list-ol"></i> Mérito Original</button>
+        </div>
+    </div>
+
+    <div id="comparisonCard" class="comp-card" style="display: none;"></div>
+
+    <div class="table-wrapper">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Mérito</th>
+                    <th>Sección</th>
+                    <th>Código UNI</th>
+                    <th>Puntaje (S/150)</th>
+                    <th>Nota (S/20)</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr><td colspan="5" style="text-align:center; padding: 2rem; color: #64748b;">
+                    <i class="bi bi-hourglass-split" style="font-size: 1.5rem; display: block; margin-bottom: 0.5rem;"></i>
+                    Cargando datos...
+                </td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <div class="legend">
+            <div class="legend-item"><span class="dot high"></span> Superior al promedio (+0.5σ)</div>
+            <div class="legend-item"><span class="dot mid"></span> Zona media</div>
+            <div class="legend-item"><span class="dot low"></span> Inferior al promedio (-0.5σ)</div>
+        </div>
+        <div><i class="bi bi-info-circle"></i> Haz clic en cualquier fila para ver tu comparación detallada con el grupo.</div>
+    </footer>
+</div>
+
+<script src="datos.js"></script>
+<script>
+    // --- Lógica JavaScript sin cambios sustanciales, solo ajustes menores para la nueva UI ---
+    let originalData = window.datosCSV || [];
+    let filteredData = [];
+    let currentOrder = 'merito';
+    let currentSearch = '';
+    let globalStats = null;
+
+    const searchInput = document.getElementById('searchInput');
+    const orderAscBtn = document.querySelector('[data-order="asc"]');
+    const orderDescBtn = document.querySelector('[data-order="desc"]');
+    const orderResetBtn = document.querySelector('[data-order="reset"]');
+    const tableBody = document.getElementById('tableBody');
+    const statsContainerDiv = document.getElementById('statsContainer');
+    const comparisonCard = document.getElementById('comparisonCard');
+
+    function computeStatistics(dataArray) {
+        if (!dataArray.length) return null;
+        const scores = dataArray.map(d => d['PUNTAJE SOBRE 20']).filter(v => !isNaN(v));
+        if (scores.length === 0) return null;
+        const sum = scores.reduce((a, b) => a + b, 0);
+        const mean = sum / scores.length;
+        const sorted = [...scores].sort((a, b) => a - b);
+        const median = sorted.length % 2 === 0 ? (sorted[sorted.length/2 - 1] + sorted[sorted.length/2]) / 2 : sorted[Math.floor(sorted.length/2)];
+        const max = Math.max(...scores);
+        const min = Math.min(...scores);
+        const variance = scores.reduce((acc, val) => acc + Math.pow(val - mean, 2), 0) / scores.length;
+        const stdDev = Math.sqrt(variance);
+        return { mean, median, max, min, stdDev, count: scores.length, scoresSorted: sorted };
+    }
+
+    function updateStatsUI(stats) {
+        if (!stats) return; // Mantiene el estado por defecto si no hay datos
+        statsContainerDiv.innerHTML = `
+            <div class="stat-card"><h3>Promedio (S/20)</h3><div class="value">${stats.mean.toFixed(2)}</div></div>
+            <div class="stat-card"><h3>Mediana</h3><div class="value">${stats.median.toFixed(2)}</div></div>
+            <div class="stat-card"><h3>Máximo</h3><div class="value">${stats.max.toFixed(2)}</div></div>
+            <div class="stat-card"><h3>Mínimo</h3><div class="value">${stats.min.toFixed(2)}</div></div>
+            <div class="stat-card"><h3>Desv. Estándar</h3><div class="value">${stats.stdDev.toFixed(2)}</div></div>
+            <div class="stat-card"><h3>Total registros</h3><div class="value">${stats.count}</div></div>
+        `;
+    }
+
+    function getRowClass(score, mean, stdDev) {
+        if (mean === undefined || stdDev === undefined) return 'row-medio';
+        const upper = mean + 0.5 * stdDev;
+        const lower = mean - 0.5 * stdDev;
+        if (score >= upper) return 'row-alto';
+        if (score <= lower) return 'row-bajo';
+        return 'row-medio';
+    }
+
+    function renderTable() {
+        if (!originalData || !originalData.length) {
+            tableBody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding: 2rem; color: #ef4444;"><i class="bi bi-exclamation-triangle" style="font-size: 1.5rem; display:block; margin-bottom: 0.5rem;"></i>No se encontraron datos. Verifica el archivo <code>datos.js</code>.</td></tr>';
+            return;
+        }
+
+        let working = [...originalData];
+        if (currentSearch.trim() !== '') {
+            const searchLower = currentSearch.trim().toLowerCase();
+            working = working.filter(item =>
+                String(item.Codigo || '').toLowerCase().includes(searchLower) ||
+                String(item.Sec || '').toLowerCase().includes(searchLower) ||
+                String(item.Merito || '').toLowerCase().includes(searchLower)
+            );
+        }
+        filteredData = working;
+
+        if (currentOrder === 'puntajeAsc') {
+            filteredData.sort((a, b) => a['PUNTAJE SOBRE 20'] - b['PUNTAJE SOBRE 20']);
+        } else if (currentOrder === 'puntajeDesc') {
+            filteredData.sort((a, b) => b['PUNTAJE SOBRE 20'] - a['PUNTAJE SOBRE 20']);
+        } else {
+            filteredData.sort((a, b) => a.Merito - b.Merito);
+        }
+
+        if(!globalStats) {
+            globalStats = computeStatistics(originalData);
+            updateStatsUI(globalStats);
+        }
+
+        if (filteredData.length === 0) {
+            tableBody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding: 2rem; color: #64748b;">No hay resultados para tu búsqueda.</td></tr>';
+            updateComparisonCard();
+            return;
+        }
+
+        let html = '';
+        filteredData.forEach(row => {
+            const score = row['PUNTAJE SOBRE 20'];
+            const rowClass = globalStats ? getRowClass(score, globalStats.mean, globalStats.stdDev) : '';
+            html += `<tr data-codigo="${row.Codigo}" class="${rowClass}">
+                        <td>${row.Merito}</td>
+                        <td>${row.Sec}</td>
+                        <td>${row.Codigo}</td>
+                        <td>${Number(row['PUNTAJE 1A PC']).toFixed(2)}</td>
+                        <td>${Number(score).toFixed(2)}</td>
+                     </tr>`;
+        });
+        tableBody.innerHTML = html;
+        updateComparisonCard();
+    }
+
+    function updateComparisonCard() {
+        if (!originalData.length || !globalStats) {
+            comparisonCard.style.display = 'none';
+            return;
+        }
+        const searchTerm = currentSearch.trim();
+        if (searchTerm === '') {
+            comparisonCard.style.display = 'none';
+            return;
+        }
+        
+        // Buscar coincidencia exacta por código
+        const exactMatch = originalData.find(d => String(d.Codigo).toLowerCase() === searchTerm.toLowerCase());
+        
+        if (!exactMatch) {
+            comparisonCard.style.display = 'none';
+            return;
+        }
+
+        const userScore = exactMatch['PUNTAJE SOBRE 20'];
+        const diff = userScore - globalStats.mean;
+        const percentil = (globalStats.scoresSorted.filter(s => s < userScore).length / globalStats.scoresSorted.length) * 100;
+
+        comparisonCard.style.display = 'flex';
+        comparisonCard.innerHTML = `
+            <div class="comp-info">
+                <div class="icon-wrapper">
+                    <i class="bi bi-person-bounding-box"></i>
+                </div>
+                <div class="comp-info-text">
+                    <strong>Código: ${exactMatch.Codigo}</strong><br>
+                    Nota Obtenida: <strong>${userScore.toFixed(2)} / 20</strong><br>
+                    Promedio global: ${globalStats.mean.toFixed(2)} (${diff >= 0 ? '+' : ''}${diff.toFixed(2)} pts)<br>
+                    Superas al <strong>${percentil.toFixed(1)}%</strong> de los estudiantes.
+                </div>
+            </div>
+            <div class="comp-badge" style="background-color: ${diff >= 0 ? 'var(--status-high-border)' : 'var(--status-low-border)'}">
+                ${diff >= 0 ? '<i class="bi bi-arrow-up-circle"></i> Sobre el promedio' : '<i class="bi bi-arrow-down-circle"></i> Bajo el promedio'}
+            </div>
+        `;
+
+        // Resaltar fila (si está visible en la página actual de la búsqueda)
+        const rows = document.querySelectorAll('#tableBody tr');
+        rows.forEach(row => {
+            if (row.getAttribute('data-codigo')?.toLowerCase() === exactMatch.Codigo.toLowerCase()) {
+                row.classList.add('highlight');
+            } else {
+                row.classList.remove('highlight');
+            }
+        });
+    }
+
+    // --- Manejo de Eventos ---
+    searchInput.addEventListener('input', (e) => {
+        currentSearch = e.target.value;
+        renderTable();
+    });
+
+    const setOrderBtnActive = (activeBtn) => {
+        [orderAscBtn, orderDescBtn, orderResetBtn].forEach(btn => btn.classList.remove('active'));
+        activeBtn.classList.add('active');
+    };
+
+    orderAscBtn.addEventListener('click', () => {
+        currentOrder = 'puntajeAsc';
+        setOrderBtnActive(orderAscBtn);
+        renderTable();
+    });
+    
+    orderDescBtn.addEventListener('click', () => {
+        currentOrder = 'puntajeDesc';
+        setOrderBtnActive(orderDescBtn);
+        renderTable();
+    });
+    
+    orderResetBtn.addEventListener('click', () => {
+        currentOrder = 'merito';
+        setOrderBtnActive(orderResetBtn);
+        renderTable();
+    });
+
+    tableBody.addEventListener('click', (e) => {
+        let targetRow = e.target.closest('tr');
+        if (targetRow && targetRow.getAttribute('data-codigo')) {
+            const codigo = targetRow.getAttribute('data-codigo');
+            searchInput.value = codigo;
+            currentSearch = codigo;
+            renderTable();
+            // Scroll suave hacia la tarjeta de comparación si estamos en móvil
+            if (window.innerWidth <= 768) {
+                document.querySelector('.controls').scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    });
+
+    // --- Inicialización ---
+    // Pequeño timeout para simular carga y mostrar la UI base antes de renderizar la tabla grande
+    setTimeout(() => {
+        renderTable();
+    }, 100);
+
+</script>
+</body>
+</html>
