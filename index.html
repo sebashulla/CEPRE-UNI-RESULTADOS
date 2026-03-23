@@ -485,7 +485,6 @@
 
 <script src="datos.js"></script>
 <script>
-    // --- Lógica JavaScript sin cambios sustanciales, solo ajustes menores para la nueva UI ---
     let originalData = window.datosCSV || [];
     let filteredData = [];
     let currentOrder = 'merito';
@@ -516,7 +515,7 @@
     }
 
     function updateStatsUI(stats) {
-        if (!stats) return; // Mantiene el estado por defecto si no hay datos
+        if (!stats) return; 
         statsContainerDiv.innerHTML = `
             <div class="stat-card"><h3>Promedio (S/20)</h3><div class="value">${stats.mean.toFixed(2)}</div></div>
             <div class="stat-card"><h3>Mediana</h3><div class="value">${stats.median.toFixed(2)}</div></div>
@@ -599,7 +598,6 @@
             return;
         }
         
-        // Buscar coincidencia exacta por código
         const exactMatch = originalData.find(d => String(d.Codigo).toLowerCase() === searchTerm.toLowerCase());
         
         if (!exactMatch) {
@@ -629,7 +627,6 @@
             </div>
         `;
 
-        // Resaltar fila (si está visible en la página actual de la búsqueda)
         const rows = document.querySelectorAll('#tableBody tr');
         rows.forEach(row => {
             if (row.getAttribute('data-codigo')?.toLowerCase() === exactMatch.Codigo.toLowerCase()) {
@@ -640,7 +637,6 @@
         });
     }
 
-    // --- Manejo de Eventos ---
     searchInput.addEventListener('input', (e) => {
         currentSearch = e.target.value;
         renderTable();
@@ -676,15 +672,12 @@
             searchInput.value = codigo;
             currentSearch = codigo;
             renderTable();
-            // Scroll suave hacia la tarjeta de comparación si estamos en móvil
             if (window.innerWidth <= 768) {
                 document.querySelector('.controls').scrollIntoView({ behavior: 'smooth' });
             }
         }
     });
 
-    // --- Inicialización ---
-    // Pequeño timeout para simular carga y mostrar la UI base antes de renderizar la tabla grande
     setTimeout(() => {
         renderTable();
     }, 100);
