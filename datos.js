@@ -1823,8 +1823,8 @@ const datosCSV = [
     "Merito": 261,
     "Sec": 61,
     "Codigo": "2610062F",
-    "PUNTAJE 1A PC": 123.32,
-    "PUNTAJE SOBRE 20": 16.44
+    "PUNTAJE 1A PC": 132.32,
+    "PUNTAJE SOBRE 20": 17.65
   },
   {
     "Merito": 262,
