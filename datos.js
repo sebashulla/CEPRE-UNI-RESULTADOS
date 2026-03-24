@@ -575,1256 +575,1256 @@ const datosCSV = [
   },
   {
     "Merito": 83,
+    "Sec": 61,
+    "Codigo": "2610062F",
+    "PUNTAJE 1A PC": 132.32,
+    "PUNTAJE SOBRE 20": 17.64
+  },
+  {
+    "Merito": 84,
     "Sec": 85,
     "Codigo": "2610086K",
     "PUNTAJE 1A PC": 131.97,
     "PUNTAJE SOBRE 20": 17.6
   },
   {
-    "Merito": 84,
+    "Merito": 85,
     "Sec": 661,
     "Codigo": "2610679G",
     "PUNTAJE 1A PC": 131.82,
     "PUNTAJE SOBRE 20": 17.58
   },
   {
-    "Merito": 85,
+    "Merito": 86,
     "Sec": 57,
     "Codigo": "2610058E",
     "PUNTAJE 1A PC": 131.79,
     "PUNTAJE SOBRE 20": 17.57
   },
   {
-    "Merito": 86,
+    "Merito": 87,
     "Sec": 256,
     "Codigo": "2610262C",
     "PUNTAJE 1A PC": 131.77,
     "PUNTAJE SOBRE 20": 17.57
   },
   {
-    "Merito": 87,
+    "Merito": 88,
     "Sec": 266,
     "Codigo": "2610272G",
     "PUNTAJE 1A PC": 131.64,
     "PUNTAJE SOBRE 20": 17.55
   },
   {
-    "Merito": 88,
+    "Merito": 89,
     "Sec": 805,
     "Codigo": "2610829K",
     "PUNTAJE 1A PC": 131.64,
     "PUNTAJE SOBRE 20": 17.55
   },
   {
-    "Merito": 89,
+    "Merito": 90,
     "Sec": 406,
     "Codigo": "2610416E",
     "PUNTAJE 1A PC": 131.57,
     "PUNTAJE SOBRE 20": 17.54
   },
   {
-    "Merito": 90,
+    "Merito": 91,
     "Sec": 17,
     "Codigo": "2610018D",
     "PUNTAJE 1A PC": 131.44,
     "PUNTAJE SOBRE 20": 17.53
   },
   {
-    "Merito": 91,
+    "Merito": 92,
     "Sec": 120,
     "Codigo": "2610123K",
     "PUNTAJE 1A PC": 131.44,
     "PUNTAJE SOBRE 20": 17.53
   },
   {
-    "Merito": 92,
+    "Merito": 93,
     "Sec": 203,
     "Codigo": "2610209K",
     "PUNTAJE 1A PC": 131.44,
     "PUNTAJE SOBRE 20": 17.53
   },
   {
-    "Merito": 93,
+    "Merito": 94,
     "Sec": 283,
     "Codigo": "2610289C",
     "PUNTAJE 1A PC": 131.44,
     "PUNTAJE SOBRE 20": 17.53
   },
   {
-    "Merito": 94,
+    "Merito": 95,
     "Sec": 183,
     "Codigo": "2610188H",
     "PUNTAJE 1A PC": 131.42,
     "PUNTAJE SOBRE 20": 17.52
   },
   {
-    "Merito": 95,
+    "Merito": 96,
     "Sec": 402,
     "Codigo": "2610412G",
     "PUNTAJE 1A PC": 131.42,
     "PUNTAJE SOBRE 20": 17.52
   },
   {
-    "Merito": 96,
+    "Merito": 97,
     "Sec": 464,
     "Codigo": "2610476D",
     "PUNTAJE 1A PC": 131.42,
     "PUNTAJE SOBRE 20": 17.52
   },
   {
-    "Merito": 97,
+    "Merito": 98,
     "Sec": 69,
     "Codigo": "2610070E",
     "PUNTAJE 1A PC": 131.27,
     "PUNTAJE SOBRE 20": 17.5
   },
   {
-    "Merito": 98,
+    "Merito": 99,
     "Sec": 74,
     "Codigo": "2610075F",
     "PUNTAJE 1A PC": 131.27,
     "PUNTAJE SOBRE 20": 17.5
   },
   {
-    "Merito": 99,
+    "Merito": 100,
     "Sec": 168,
     "Codigo": "2610173E",
     "PUNTAJE 1A PC": 131.27,
     "PUNTAJE SOBRE 20": 17.5
   },
   {
-    "Merito": 100,
+    "Merito": 101,
     "Sec": 193,
     "Codigo": "2610199D",
     "PUNTAJE 1A PC": 131.27,
     "PUNTAJE SOBRE 20": 17.5
   },
   {
-    "Merito": 101,
+    "Merito": 102,
     "Sec": 197,
     "Codigo": "2610203H",
     "PUNTAJE 1A PC": 131.27,
     "PUNTAJE SOBRE 20": 17.5
   },
   {
-    "Merito": 102,
+    "Merito": 103,
     "Sec": 439,
     "Codigo": "2610450E",
     "PUNTAJE 1A PC": 131.27,
     "PUNTAJE SOBRE 20": 17.5
   },
   {
-    "Merito": 103,
+    "Merito": 104,
     "Sec": 732,
     "Codigo": "2610752A",
     "PUNTAJE 1A PC": 131.27,
     "PUNTAJE SOBRE 20": 17.5
   },
   {
-    "Merito": 104,
+    "Merito": 105,
     "Sec": 56,
     "Codigo": "2610057D",
     "PUNTAJE 1A PC": 131.24,
     "PUNTAJE SOBRE 20": 17.5
   },
   {
-    "Merito": 105,
+    "Merito": 106,
     "Sec": 152,
     "Codigo": "2610155D",
     "PUNTAJE 1A PC": 131.12,
     "PUNTAJE SOBRE 20": 17.48
   },
   {
-    "Merito": 106,
+    "Merito": 107,
     "Sec": 84,
     "Codigo": "2610085H",
     "PUNTAJE 1A PC": 131.09,
     "PUNTAJE SOBRE 20": 17.48
   },
   {
-    "Merito": 107,
+    "Merito": 108,
     "Sec": 1204,
     "Codigo": "2611245J",
     "PUNTAJE 1A PC": 131.09,
     "PUNTAJE SOBRE 20": 17.48
   },
   {
-    "Merito": 108,
+    "Merito": 109,
     "Sec": 2681,
     "Codigo": "2613504G",
     "PUNTAJE 1A PC": 131.09,
     "PUNTAJE SOBRE 20": 17.48
   },
   {
-    "Merito": 109,
+    "Merito": 110,
     "Sec": 228,
     "Codigo": "2610234J",
     "PUNTAJE 1A PC": 130.94,
     "PUNTAJE SOBRE 20": 17.46
   },
   {
-    "Merito": 110,
+    "Merito": 111,
     "Sec": 159,
     "Codigo": "2610163B",
     "PUNTAJE 1A PC": 130.74,
     "PUNTAJE SOBRE 20": 17.43
   },
   {
-    "Merito": 111,
+    "Merito": 112,
     "Sec": 316,
     "Codigo": "2610322F",
     "PUNTAJE 1A PC": 130.74,
     "PUNTAJE SOBRE 20": 17.43
   },
   {
-    "Merito": 112,
+    "Merito": 113,
     "Sec": 476,
     "Codigo": "2610488K",
     "PUNTAJE 1A PC": 130.74,
     "PUNTAJE SOBRE 20": 17.43
   },
   {
-    "Merito": 113,
+    "Merito": 114,
     "Sec": 5,
     "Codigo": "2610006F",
     "PUNTAJE 1A PC": 130.39,
     "PUNTAJE SOBRE 20": 17.39
   },
   {
-    "Merito": 114,
+    "Merito": 115,
     "Sec": 281,
     "Codigo": "2610287K",
     "PUNTAJE 1A PC": 130.39,
     "PUNTAJE SOBRE 20": 17.39
   },
   {
-    "Merito": 115,
+    "Merito": 116,
     "Sec": 473,
     "Codigo": "2610485C",
     "PUNTAJE 1A PC": 130.39,
     "PUNTAJE SOBRE 20": 17.39
   },
   {
-    "Merito": 116,
+    "Merito": 117,
     "Sec": 355,
     "Codigo": "2610363K",
     "PUNTAJE 1A PC": 130.24,
     "PUNTAJE SOBRE 20": 17.37
   },
   {
-    "Merito": 117,
+    "Merito": 118,
     "Sec": 263,
     "Codigo": "2610269H",
     "PUNTAJE 1A PC": 130.21,
     "PUNTAJE SOBRE 20": 17.36
   },
   {
-    "Merito": 118,
+    "Merito": 119,
     "Sec": 79,
     "Codigo": "2610080H",
     "PUNTAJE 1A PC": 130.04,
     "PUNTAJE SOBRE 20": 17.34
   },
   {
-    "Merito": 119,
+    "Merito": 120,
     "Sec": 72,
     "Codigo": "2610073A",
     "PUNTAJE 1A PC": 129.99,
     "PUNTAJE SOBRE 20": 17.33
   },
   {
-    "Merito": 120,
+    "Merito": 121,
     "Sec": 106,
     "Codigo": "2610108C",
     "PUNTAJE 1A PC": 129.84,
     "PUNTAJE SOBRE 20": 17.31
   },
   {
-    "Merito": 121,
+    "Merito": 122,
     "Sec": 252,
     "Codigo": "2610258D",
     "PUNTAJE 1A PC": 129.84,
     "PUNTAJE SOBRE 20": 17.31
   },
   {
-    "Merito": 122,
+    "Merito": 123,
     "Sec": 169,
     "Codigo": "2610174G",
     "PUNTAJE 1A PC": 129.71,
     "PUNTAJE SOBRE 20": 17.29
   },
   {
-    "Merito": 123,
+    "Merito": 124,
     "Sec": 127,
     "Codigo": "2610130G",
     "PUNTAJE 1A PC": 129.69,
     "PUNTAJE SOBRE 20": 17.29
   },
   {
-    "Merito": 124,
+    "Merito": 125,
     "Sec": 144,
     "Codigo": "2610147C",
     "PUNTAJE 1A PC": 129.69,
     "PUNTAJE SOBRE 20": 17.29
   },
   {
-    "Merito": 125,
+    "Merito": 126,
     "Sec": 232,
     "Codigo": "2610238G",
     "PUNTAJE 1A PC": 129.69,
     "PUNTAJE SOBRE 20": 17.29
   },
   {
-    "Merito": 126,
+    "Merito": 127,
     "Sec": 511,
     "Codigo": "2610524H",
     "PUNTAJE 1A PC": 129.69,
     "PUNTAJE SOBRE 20": 17.29
   },
   {
-    "Merito": 127,
+    "Merito": 128,
     "Sec": 238,
     "Codigo": "2610244B",
     "PUNTAJE 1A PC": 129.56,
     "PUNTAJE SOBRE 20": 17.27
   },
   {
-    "Merito": 128,
+    "Merito": 129,
     "Sec": 137,
     "Codigo": "2610140K",
     "PUNTAJE 1A PC": 129.54,
     "PUNTAJE SOBRE 20": 17.27
   },
   {
-    "Merito": 129,
+    "Merito": 130,
     "Sec": 208,
     "Codigo": "2610214D",
     "PUNTAJE 1A PC": 129.54,
     "PUNTAJE SOBRE 20": 17.27
   },
   {
-    "Merito": 130,
+    "Merito": 131,
     "Sec": 223,
     "Codigo": "2610229F",
     "PUNTAJE 1A PC": 129.54,
     "PUNTAJE SOBRE 20": 17.27
   },
   {
-    "Merito": 131,
+    "Merito": 132,
     "Sec": 1082,
     "Codigo": "2611117K",
     "PUNTAJE 1A PC": 129.51,
     "PUNTAJE SOBRE 20": 17.27
   },
   {
-    "Merito": 132,
+    "Merito": 133,
     "Sec": 313,
     "Codigo": "2610319G",
     "PUNTAJE 1A PC": 129.21,
     "PUNTAJE SOBRE 20": 17.23
   },
   {
-    "Merito": 133,
+    "Merito": 134,
     "Sec": 602,
     "Codigo": "2610618G",
     "PUNTAJE 1A PC": 129.18,
     "PUNTAJE SOBRE 20": 17.22
   },
   {
-    "Merito": 134,
+    "Merito": 135,
     "Sec": 416,
     "Codigo": "2610426H",
     "PUNTAJE 1A PC": 129.16,
     "PUNTAJE SOBRE 20": 17.22
   },
   {
-    "Merito": 135,
+    "Merito": 136,
     "Sec": 521,
     "Codigo": "2610535D",
     "PUNTAJE 1A PC": 129.16,
     "PUNTAJE SOBRE 20": 17.22
   },
   {
-    "Merito": 136,
+    "Merito": 137,
     "Sec": 240,
     "Codigo": "2610246F",
     "PUNTAJE 1A PC": 129.03,
     "PUNTAJE SOBRE 20": 17.2
   },
   {
-    "Merito": 137,
+    "Merito": 138,
     "Sec": 543,
     "Codigo": "2610557D",
     "PUNTAJE 1A PC": 129.01,
     "PUNTAJE SOBRE 20": 17.2
   },
   {
-    "Merito": 138,
+    "Merito": 139,
     "Sec": 1356,
     "Codigo": "2611402J",
     "PUNTAJE 1A PC": 129.01,
     "PUNTAJE SOBRE 20": 17.2
   },
   {
-    "Merito": 139,
+    "Merito": 140,
     "Sec": 956,
     "Codigo": "2610987H",
     "PUNTAJE 1A PC": 128.88,
     "PUNTAJE SOBRE 20": 17.18
   },
   {
-    "Merito": 140,
+    "Merito": 141,
     "Sec": 718,
     "Codigo": "2610736D",
     "PUNTAJE 1A PC": 128.81,
     "PUNTAJE SOBRE 20": 17.17
   },
   {
-    "Merito": 141,
+    "Merito": 142,
     "Sec": 802,
     "Codigo": "2610826C",
     "PUNTAJE 1A PC": 128.81,
     "PUNTAJE SOBRE 20": 17.17
   },
   {
-    "Merito": 142,
+    "Merito": 143,
     "Sec": 724,
     "Codigo": "2610743K",
     "PUNTAJE 1A PC": 128.68,
     "PUNTAJE SOBRE 20": 17.16
   },
   {
-    "Merito": 143,
+    "Merito": 144,
     "Sec": 49,
     "Codigo": "2610050J",
     "PUNTAJE 1A PC": 128.66,
     "PUNTAJE SOBRE 20": 17.15
   },
   {
-    "Merito": 144,
+    "Merito": 145,
     "Sec": 80,
     "Codigo": "2610081K",
     "PUNTAJE 1A PC": 128.66,
     "PUNTAJE SOBRE 20": 17.15
   },
   {
-    "Merito": 145,
+    "Merito": 146,
     "Sec": 304,
     "Codigo": "2610310J",
     "PUNTAJE 1A PC": 128.66,
     "PUNTAJE SOBRE 20": 17.15
   },
   {
-    "Merito": 146,
+    "Merito": 147,
     "Sec": 563,
     "Codigo": "2610579D",
     "PUNTAJE 1A PC": 128.66,
     "PUNTAJE SOBRE 20": 17.15
   },
   {
-    "Merito": 147,
+    "Merito": 148,
     "Sec": 933,
     "Codigo": "2610964F",
     "PUNTAJE 1A PC": 128.61,
     "PUNTAJE SOBRE 20": 17.15
   },
   {
-    "Merito": 148,
+    "Merito": 149,
     "Sec": 100,
     "Codigo": "2610101K",
     "PUNTAJE 1A PC": 128.48,
     "PUNTAJE SOBRE 20": 17.13
   },
   {
-    "Merito": 149,
+    "Merito": 150,
     "Sec": 105,
     "Codigo": "2610107B",
     "PUNTAJE 1A PC": 128.46,
     "PUNTAJE SOBRE 20": 17.13
   },
   {
-    "Merito": 150,
+    "Merito": 151,
     "Sec": 339,
     "Codigo": "2610347B",
     "PUNTAJE 1A PC": 128.46,
     "PUNTAJE SOBRE 20": 17.13
   },
   {
-    "Merito": 151,
+    "Merito": 152,
     "Sec": 246,
     "Codigo": "2610252A",
     "PUNTAJE 1A PC": 128.33,
     "PUNTAJE SOBRE 20": 17.11
   },
   {
-    "Merito": 152,
+    "Merito": 153,
     "Sec": 27,
     "Codigo": "2610028F",
     "PUNTAJE 1A PC": 128.31,
     "PUNTAJE SOBRE 20": 17.11
   },
   {
-    "Merito": 153,
+    "Merito": 154,
     "Sec": 482,
     "Codigo": "2610494E",
     "PUNTAJE 1A PC": 128.26,
     "PUNTAJE SOBRE 20": 17.1
   },
   {
-    "Merito": 154,
+    "Merito": 155,
     "Sec": 2691,
     "Codigo": "2613514K",
     "PUNTAJE 1A PC": 128.26,
     "PUNTAJE SOBRE 20": 17.1
   },
   {
-    "Merito": 155,
+    "Merito": 156,
     "Sec": 2688,
     "Codigo": "2613511C",
     "PUNTAJE 1A PC": 128.15,
     "PUNTAJE SOBRE 20": 17.09
   },
   {
-    "Merito": 156,
+    "Merito": 157,
     "Sec": 28,
     "Codigo": "2610029H",
     "PUNTAJE 1A PC": 128.11,
     "PUNTAJE SOBRE 20": 17.08
   },
   {
-    "Merito": 157,
+    "Merito": 158,
     "Sec": 92,
     "Codigo": "2610093G",
     "PUNTAJE 1A PC": 128.11,
     "PUNTAJE SOBRE 20": 17.08
   },
   {
-    "Merito": 158,
+    "Merito": 159,
     "Sec": 300,
     "Codigo": "2610306H",
     "PUNTAJE 1A PC": 128.11,
     "PUNTAJE SOBRE 20": 17.08
   },
   {
-    "Merito": 159,
+    "Merito": 160,
     "Sec": 308,
     "Codigo": "2610314G",
     "PUNTAJE 1A PC": 128.11,
     "PUNTAJE SOBRE 20": 17.08
   },
   {
-    "Merito": 160,
+    "Merito": 161,
     "Sec": 437,
     "Codigo": "2610448H",
     "PUNTAJE 1A PC": 128.11,
     "PUNTAJE SOBRE 20": 17.08
   },
   {
-    "Merito": 161,
+    "Merito": 162,
     "Sec": 943,
     "Codigo": "2610974J",
     "PUNTAJE 1A PC": 128.11,
     "PUNTAJE SOBRE 20": 17.08
   },
   {
-    "Merito": 162,
+    "Merito": 163,
     "Sec": 47,
     "Codigo": "2610048B",
     "PUNTAJE 1A PC": 127.98,
     "PUNTAJE SOBRE 20": 17.06
   },
   {
-    "Merito": 163,
+    "Merito": 164,
     "Sec": 135,
     "Codigo": "2610138D",
     "PUNTAJE 1A PC": 127.98,
     "PUNTAJE SOBRE 20": 17.06
   },
   {
-    "Merito": 164,
+    "Merito": 165,
     "Sec": 177,
     "Codigo": "2610182F",
     "PUNTAJE 1A PC": 127.98,
     "PUNTAJE SOBRE 20": 17.06
   },
   {
-    "Merito": 165,
+    "Merito": 166,
     "Sec": 2677,
     "Codigo": "2613500J",
     "PUNTAJE 1A PC": 127.96,
     "PUNTAJE SOBRE 20": 17.06
   },
   {
-    "Merito": 166,
+    "Merito": 167,
     "Sec": 205,
     "Codigo": "2610211G",
     "PUNTAJE 1A PC": 127.93,
     "PUNTAJE SOBRE 20": 17.06
   },
   {
-    "Merito": 167,
+    "Merito": 168,
     "Sec": 411,
     "Codigo": "2610421H",
     "PUNTAJE 1A PC": 127.78,
     "PUNTAJE SOBRE 20": 17.04
   },
   {
-    "Merito": 168,
+    "Merito": 169,
     "Sec": 552,
     "Codigo": "2610567F",
     "PUNTAJE 1A PC": 127.78,
     "PUNTAJE SOBRE 20": 17.04
   },
   {
-    "Merito": 169,
+    "Merito": 170,
     "Sec": 114,
     "Codigo": "2610117E",
     "PUNTAJE 1A PC": 127.63,
     "PUNTAJE SOBRE 20": 17.02
   },
   {
-    "Merito": 170,
+    "Merito": 171,
     "Sec": 519,
     "Codigo": "2610533J",
     "PUNTAJE 1A PC": 127.63,
     "PUNTAJE SOBRE 20": 17.02
   },
   {
-    "Merito": 171,
+    "Merito": 172,
     "Sec": 1000,
     "Codigo": "2611033C",
     "PUNTAJE 1A PC": 127.43,
     "PUNTAJE SOBRE 20": 16.99
   },
   {
-    "Merito": 172,
+    "Merito": 173,
     "Sec": 261,
     "Codigo": "2610267C",
     "PUNTAJE 1A PC": 127.28,
     "PUNTAJE SOBRE 20": 16.97
   },
   {
-    "Merito": 173,
+    "Merito": 174,
     "Sec": 329,
     "Codigo": "2610336G",
     "PUNTAJE 1A PC": 127.13,
     "PUNTAJE SOBRE 20": 16.95
   },
   {
-    "Merito": 174,
+    "Merito": 175,
     "Sec": 62,
     "Codigo": "2610063H",
     "PUNTAJE 1A PC": 127.08,
     "PUNTAJE SOBRE 20": 16.94
   },
   {
-    "Merito": 175,
+    "Merito": 176,
     "Sec": 350,
     "Codigo": "2610358G",
     "PUNTAJE 1A PC": 127.08,
     "PUNTAJE SOBRE 20": 16.94
   },
   {
-    "Merito": 176,
+    "Merito": 177,
     "Sec": 116,
     "Codigo": "2610119J",
     "PUNTAJE 1A PC": 126.95,
     "PUNTAJE SOBRE 20": 16.93
   },
   {
-    "Merito": 177,
+    "Merito": 178,
     "Sec": 258,
     "Codigo": "2610264H",
     "PUNTAJE 1A PC": 126.93,
     "PUNTAJE SOBRE 20": 16.92
   },
   {
-    "Merito": 178,
+    "Merito": 179,
     "Sec": 75,
     "Codigo": "2610076G",
     "PUNTAJE 1A PC": 126.9,
     "PUNTAJE SOBRE 20": 16.92
   },
   {
-    "Merito": 179,
+    "Merito": 180,
     "Sec": 221,
     "Codigo": "2610227B",
     "PUNTAJE 1A PC": 126.88,
     "PUNTAJE SOBRE 20": 16.92
   },
   {
-    "Merito": 180,
+    "Merito": 181,
     "Sec": 55,
     "Codigo": "2610056A",
     "PUNTAJE 1A PC": 126.75,
     "PUNTAJE SOBRE 20": 16.9
   },
   {
-    "Merito": 181,
+    "Merito": 182,
     "Sec": 262,
     "Codigo": "2610268F",
     "PUNTAJE 1A PC": 126.75,
     "PUNTAJE SOBRE 20": 16.9
   },
   {
-    "Merito": 182,
+    "Merito": 183,
     "Sec": 133,
     "Codigo": "2610136J",
     "PUNTAJE 1A PC": 126.73,
     "PUNTAJE SOBRE 20": 16.9
   },
   {
-    "Merito": 183,
+    "Merito": 184,
     "Sec": 720,
     "Codigo": "2610738G",
     "PUNTAJE 1A PC": 126.73,
     "PUNTAJE SOBRE 20": 16.9
   },
   {
-    "Merito": 184,
+    "Merito": 185,
     "Sec": 267,
     "Codigo": "2610273J",
     "PUNTAJE 1A PC": 126.58,
     "PUNTAJE SOBRE 20": 16.88
   },
   {
-    "Merito": 185,
+    "Merito": 186,
     "Sec": 81,
     "Codigo": "2610082B",
     "PUNTAJE 1A PC": 126.55,
     "PUNTAJE SOBRE 20": 16.87
   },
   {
-    "Merito": 186,
+    "Merito": 187,
     "Sec": 21,
     "Codigo": "2610022C",
     "PUNTAJE 1A PC": 126.53,
     "PUNTAJE SOBRE 20": 16.87
   },
   {
-    "Merito": 187,
+    "Merito": 188,
     "Sec": 1220,
     "Codigo": "2611261G",
     "PUNTAJE 1A PC": 126.53,
     "PUNTAJE SOBRE 20": 16.87
   },
   {
-    "Merito": 188,
+    "Merito": 189,
     "Sec": 172,
     "Codigo": "2610177D",
     "PUNTAJE 1A PC": 126.4,
     "PUNTAJE SOBRE 20": 16.85
   },
   {
-    "Merito": 189,
+    "Merito": 190,
     "Sec": 117,
     "Codigo": "2610120C",
     "PUNTAJE 1A PC": 126.38,
     "PUNTAJE SOBRE 20": 16.85
   },
   {
-    "Merito": 190,
+    "Merito": 191,
     "Sec": 119,
     "Codigo": "2610122H",
     "PUNTAJE 1A PC": 126.38,
     "PUNTAJE SOBRE 20": 16.85
   },
   {
-    "Merito": 191,
+    "Merito": 192,
     "Sec": 165,
     "Codigo": "2610169C",
     "PUNTAJE 1A PC": 126.38,
     "PUNTAJE SOBRE 20": 16.85
   },
   {
-    "Merito": 192,
+    "Merito": 193,
     "Sec": 331,
     "Codigo": "2610338A",
     "PUNTAJE 1A PC": 126.38,
     "PUNTAJE SOBRE 20": 16.85
   },
   {
-    "Merito": 193,
+    "Merito": 194,
     "Sec": 184,
     "Codigo": "2610189K",
     "PUNTAJE 1A PC": 126.35,
     "PUNTAJE SOBRE 20": 16.85
   },
   {
-    "Merito": 194,
+    "Merito": 195,
     "Sec": 59,
     "Codigo": "2610060B",
     "PUNTAJE 1A PC": 126.25,
     "PUNTAJE SOBRE 20": 16.83
   },
   {
-    "Merito": 195,
+    "Merito": 196,
     "Sec": 146,
     "Codigo": "2610149H",
     "PUNTAJE 1A PC": 126.25,
     "PUNTAJE SOBRE 20": 16.83
   },
   {
-    "Merito": 196,
+    "Merito": 197,
     "Sec": 952,
     "Codigo": "2610983K",
     "PUNTAJE 1A PC": 126.25,
     "PUNTAJE SOBRE 20": 16.83
   },
   {
-    "Merito": 197,
+    "Merito": 198,
     "Sec": 247,
     "Codigo": "2610253D",
     "PUNTAJE 1A PC": 126.23,
     "PUNTAJE SOBRE 20": 16.83
   },
   {
-    "Merito": 198,
+    "Merito": 199,
     "Sec": 187,
     "Codigo": "2610192J",
     "PUNTAJE 1A PC": 126.2,
     "PUNTAJE SOBRE 20": 16.83
   },
   {
-    "Merito": 199,
+    "Merito": 200,
     "Sec": 189,
     "Codigo": "2610195E",
     "PUNTAJE 1A PC": 126.05,
     "PUNTAJE SOBRE 20": 16.81
   },
   {
-    "Merito": 200,
+    "Merito": 201,
     "Sec": 306,
     "Codigo": "2610312D",
     "PUNTAJE 1A PC": 125.87,
     "PUNTAJE SOBRE 20": 16.78
   },
   {
-    "Merito": 201,
+    "Merito": 202,
     "Sec": 39,
     "Codigo": "2610040F",
     "PUNTAJE 1A PC": 125.7,
     "PUNTAJE SOBRE 20": 16.76
   },
   {
-    "Merito": 202,
+    "Merito": 203,
     "Sec": 297,
     "Codigo": "2610303B",
     "PUNTAJE 1A PC": 125.7,
     "PUNTAJE SOBRE 20": 16.76
   },
   {
-    "Merito": 203,
+    "Merito": 204,
     "Sec": 2,
     "Codigo": "2610002H",
     "PUNTAJE 1A PC": 125.57,
     "PUNTAJE SOBRE 20": 16.74
   },
   {
-    "Merito": 204,
+    "Merito": 205,
     "Sec": 599,
     "Codigo": "2610615A",
     "PUNTAJE 1A PC": 125.5,
     "PUNTAJE SOBRE 20": 16.73
   },
   {
-    "Merito": 205,
+    "Merito": 206,
     "Sec": 235,
     "Codigo": "2610241F",
     "PUNTAJE 1A PC": 125.4,
     "PUNTAJE SOBRE 20": 16.72
   },
   {
-    "Merito": 206,
+    "Merito": 207,
     "Sec": 501,
     "Codigo": "2610514E",
     "PUNTAJE 1A PC": 125.37,
     "PUNTAJE SOBRE 20": 16.72
   },
   {
-    "Merito": 207,
+    "Merito": 208,
     "Sec": 634,
     "Codigo": "2610652G",
     "PUNTAJE 1A PC": 125.37,
     "PUNTAJE SOBRE 20": 16.72
   },
   {
-    "Merito": 208,
+    "Merito": 209,
     "Sec": 42,
     "Codigo": "2610043B",
     "PUNTAJE 1A PC": 125.35,
     "PUNTAJE SOBRE 20": 16.71
   },
   {
-    "Merito": 209,
+    "Merito": 210,
     "Sec": 870,
     "Codigo": "2610899A",
     "PUNTAJE 1A PC": 125.35,
     "PUNTAJE SOBRE 20": 16.71
   },
   {
-    "Merito": 210,
+    "Merito": 211,
     "Sec": 34,
     "Codigo": "2610035D",
     "PUNTAJE 1A PC": 125.32,
     "PUNTAJE SOBRE 20": 16.71
   },
   {
-    "Merito": 211,
+    "Merito": 212,
     "Sec": 164,
     "Codigo": "2610168B",
     "PUNTAJE 1A PC": 125.2,
     "PUNTAJE SOBRE 20": 16.69
   },
   {
-    "Merito": 212,
+    "Merito": 213,
     "Sec": 166,
     "Codigo": "2610170J",
     "PUNTAJE 1A PC": 125.2,
     "PUNTAJE SOBRE 20": 16.69
   },
   {
-    "Merito": 213,
+    "Merito": 214,
     "Sec": 302,
     "Codigo": "2610308B",
     "PUNTAJE 1A PC": 125.17,
     "PUNTAJE SOBRE 20": 16.69
   },
   {
-    "Merito": 214,
+    "Merito": 215,
     "Sec": 111,
     "Codigo": "2610114J",
     "PUNTAJE 1A PC": 125.15,
     "PUNTAJE SOBRE 20": 16.69
   },
   {
-    "Merito": 215,
+    "Merito": 216,
     "Sec": 527,
     "Codigo": "2610541H",
     "PUNTAJE 1A PC": 125.15,
     "PUNTAJE SOBRE 20": 16.69
   },
   {
-    "Merito": 216,
+    "Merito": 217,
     "Sec": 191,
     "Codigo": "2610197J",
     "PUNTAJE 1A PC": 125.0,
     "PUNTAJE SOBRE 20": 16.67
   },
   {
-    "Merito": 217,
+    "Merito": 218,
     "Sec": 163,
     "Codigo": "2610167K",
     "PUNTAJE 1A PC": 124.97,
     "PUNTAJE SOBRE 20": 16.66
   },
   {
-    "Merito": 218,
+    "Merito": 219,
     "Sec": 167,
     "Codigo": "2610172D",
     "PUNTAJE 1A PC": 124.8,
     "PUNTAJE SOBRE 20": 16.64
   },
   {
-    "Merito": 219,
+    "Merito": 220,
     "Sec": 574,
     "Codigo": "2610590A",
     "PUNTAJE 1A PC": 124.8,
     "PUNTAJE SOBRE 20": 16.64
   },
   {
-    "Merito": 220,
+    "Merito": 221,
     "Sec": 850,
     "Codigo": "2610877A",
     "PUNTAJE 1A PC": 124.8,
     "PUNTAJE SOBRE 20": 16.64
   },
   {
-    "Merito": 221,
+    "Merito": 222,
     "Sec": 1300,
     "Codigo": "2611344A",
     "PUNTAJE 1A PC": 124.8,
     "PUNTAJE SOBRE 20": 16.64
   },
   {
-    "Merito": 222,
+    "Merito": 223,
     "Sec": 96,
     "Codigo": "2610097E",
     "PUNTAJE 1A PC": 124.67,
     "PUNTAJE SOBRE 20": 16.62
   },
   {
-    "Merito": 223,
+    "Merito": 224,
     "Sec": 314,
     "Codigo": "2610320B",
     "PUNTAJE 1A PC": 124.67,
     "PUNTAJE SOBRE 20": 16.62
   },
   {
-    "Merito": 224,
+    "Merito": 225,
     "Sec": 328,
     "Codigo": "2610335E",
     "PUNTAJE 1A PC": 124.67,
     "PUNTAJE SOBRE 20": 16.62
   },
   {
-    "Merito": 225,
+    "Merito": 226,
     "Sec": 160,
     "Codigo": "2610164C",
     "PUNTAJE 1A PC": 124.65,
     "PUNTAJE SOBRE 20": 16.62
   },
   {
-    "Merito": 226,
+    "Merito": 227,
     "Sec": 284,
     "Codigo": "2610290J",
     "PUNTAJE 1A PC": 124.65,
     "PUNTAJE SOBRE 20": 16.62
   },
   {
-    "Merito": 227,
+    "Merito": 228,
     "Sec": 376,
     "Codigo": "2610385K",
     "PUNTAJE 1A PC": 124.65,
     "PUNTAJE SOBRE 20": 16.62
   },
   {
-    "Merito": 228,
+    "Merito": 229,
     "Sec": 310,
     "Codigo": "2610316A",
     "PUNTAJE 1A PC": 124.5,
     "PUNTAJE SOBRE 20": 16.6
   },
   {
-    "Merito": 229,
+    "Merito": 230,
     "Sec": 483,
     "Codigo": "2610495G",
     "PUNTAJE 1A PC": 124.5,
     "PUNTAJE SOBRE 20": 16.6
   },
   {
-    "Merito": 230,
+    "Merito": 231,
     "Sec": 213,
     "Codigo": "2610219D",
     "PUNTAJE 1A PC": 124.49,
     "PUNTAJE SOBRE 20": 16.6
   },
   {
-    "Merito": 231,
+    "Merito": 232,
     "Sec": 590,
     "Codigo": "2610606K",
     "PUNTAJE 1A PC": 124.34,
     "PUNTAJE SOBRE 20": 16.58
   },
   {
-    "Merito": 232,
+    "Merito": 233,
     "Sec": 578,
     "Codigo": "2610594J",
     "PUNTAJE 1A PC": 124.32,
     "PUNTAJE SOBRE 20": 16.58
   },
   {
-    "Merito": 233,
+    "Merito": 234,
     "Sec": 102,
     "Codigo": "2610104F",
     "PUNTAJE 1A PC": 124.27,
     "PUNTAJE SOBRE 20": 16.57
   },
   {
-    "Merito": 234,
+    "Merito": 235,
     "Sec": 226,
     "Codigo": "2610232E",
     "PUNTAJE 1A PC": 124.17,
     "PUNTAJE SOBRE 20": 16.56
   },
   {
-    "Merito": 235,
+    "Merito": 236,
     "Sec": 829,
     "Codigo": "2610855A",
     "PUNTAJE 1A PC": 124.17,
     "PUNTAJE SOBRE 20": 16.56
   },
   {
-    "Merito": 236,
+    "Merito": 237,
     "Sec": 206,
     "Codigo": "2610212J",
     "PUNTAJE 1A PC": 124.14,
     "PUNTAJE SOBRE 20": 16.55
   },
   {
-    "Merito": 237,
+    "Merito": 238,
     "Sec": 202,
     "Codigo": "2610208H",
     "PUNTAJE 1A PC": 124.12,
     "PUNTAJE SOBRE 20": 16.55
   },
   {
-    "Merito": 238,
+    "Merito": 239,
     "Sec": 627,
     "Codigo": "2610643F",
     "PUNTAJE 1A PC": 124.12,
     "PUNTAJE SOBRE 20": 16.55
   },
   {
-    "Merito": 239,
+    "Merito": 240,
     "Sec": 667,
     "Codigo": "2610685B",
     "PUNTAJE 1A PC": 124.12,
     "PUNTAJE SOBRE 20": 16.55
   },
   {
-    "Merito": 240,
+    "Merito": 241,
     "Sec": 218,
     "Codigo": "2610224F",
     "PUNTAJE 1A PC": 123.99,
     "PUNTAJE SOBRE 20": 16.53
   },
   {
-    "Merito": 241,
+    "Merito": 242,
     "Sec": 24,
     "Codigo": "2610025K",
     "PUNTAJE 1A PC": 123.97,
     "PUNTAJE SOBRE 20": 16.53
   },
   {
-    "Merito": 242,
+    "Merito": 243,
     "Sec": 147,
     "Codigo": "2610150D",
     "PUNTAJE 1A PC": 123.97,
     "PUNTAJE SOBRE 20": 16.53
   },
   {
-    "Merito": 243,
+    "Merito": 244,
     "Sec": 407,
     "Codigo": "2610417G",
     "PUNTAJE 1A PC": 123.97,
     "PUNTAJE SOBRE 20": 16.53
   },
   {
-    "Merito": 244,
+    "Merito": 245,
     "Sec": 809,
     "Codigo": "2610833A",
     "PUNTAJE 1A PC": 123.92,
     "PUNTAJE SOBRE 20": 16.52
   },
   {
-    "Merito": 245,
+    "Merito": 246,
     "Sec": 682,
     "Codigo": "2610700B",
     "PUNTAJE 1A PC": 123.79,
     "PUNTAJE SOBRE 20": 16.51
   },
   {
-    "Merito": 246,
+    "Merito": 247,
     "Sec": 687,
     "Codigo": "2610705B",
     "PUNTAJE 1A PC": 123.79,
     "PUNTAJE SOBRE 20": 16.51
   },
   {
-    "Merito": 247,
+    "Merito": 248,
     "Sec": 453,
     "Codigo": "2610464F",
     "PUNTAJE 1A PC": 123.77,
     "PUNTAJE SOBRE 20": 16.5
   },
   {
-    "Merito": 248,
+    "Merito": 249,
     "Sec": 863,
     "Codigo": "2610890D",
     "PUNTAJE 1A PC": 123.77,
     "PUNTAJE SOBRE 20": 16.5
   },
   {
-    "Merito": 249,
+    "Merito": 250,
     "Sec": 66,
     "Codigo": "2610067F",
     "PUNTAJE 1A PC": 123.64,
     "PUNTAJE SOBRE 20": 16.49
   },
   {
-    "Merito": 250,
+    "Merito": 251,
     "Sec": 31,
     "Codigo": "2610032G",
     "PUNTAJE 1A PC": 123.62,
     "PUNTAJE SOBRE 20": 16.48
   },
   {
-    "Merito": 251,
+    "Merito": 252,
     "Sec": 190,
     "Codigo": "2610196G",
     "PUNTAJE 1A PC": 123.62,
     "PUNTAJE SOBRE 20": 16.48
   },
   {
-    "Merito": 252,
+    "Merito": 253,
     "Sec": 415,
     "Codigo": "2610425F",
     "PUNTAJE 1A PC": 123.62,
     "PUNTAJE SOBRE 20": 16.48
   },
   {
-    "Merito": 253,
+    "Merito": 254,
     "Sec": 134,
     "Codigo": "2610137A",
     "PUNTAJE 1A PC": 123.59,
     "PUNTAJE SOBRE 20": 16.48
   },
   {
-    "Merito": 254,
+    "Merito": 255,
     "Sec": 158,
     "Codigo": "2610162K",
     "PUNTAJE 1A PC": 123.57,
     "PUNTAJE SOBRE 20": 16.48
   },
   {
-    "Merito": 255,
+    "Merito": 256,
     "Sec": 182,
     "Codigo": "2610187F",
     "PUNTAJE 1A PC": 123.44,
     "PUNTAJE SOBRE 20": 16.46
   },
   {
-    "Merito": 256,
+    "Merito": 257,
     "Sec": 330,
     "Codigo": "2610337J",
     "PUNTAJE 1A PC": 123.44,
     "PUNTAJE SOBRE 20": 16.46
   },
   {
-    "Merito": 257,
+    "Merito": 258,
     "Sec": 502,
     "Codigo": "2610515G",
     "PUNTAJE 1A PC": 123.44,
     "PUNTAJE SOBRE 20": 16.46
   },
   {
-    "Merito": 258,
+    "Merito": 259,
     "Sec": 20,
     "Codigo": "2610021B",
     "PUNTAJE 1A PC": 123.42,
     "PUNTAJE SOBRE 20": 16.46
   },
   {
-    "Merito": 259,
+    "Merito": 260,
     "Sec": 87,
     "Codigo": "2610088C",
     "PUNTAJE 1A PC": 123.42,
     "PUNTAJE SOBRE 20": 16.46
   },
   {
-    "Merito": 260,
+    "Merito": 261,
     "Sec": 171,
     "Codigo": "2610176A",
     "PUNTAJE 1A PC": 123.42,
     "PUNTAJE SOBRE 20": 16.46
-  },
-  {
-    "Merito": 261,
-    "Sec": 61,
-    "Codigo": "2610062F",
-    "PUNTAJE 1A PC": 132.32,
-    "PUNTAJE SOBRE 20": 17.65
   },
   {
     "Merito": 262,
@@ -18963,5 +18963,4 @@ const datosCSV = [
     "PUNTAJE SOBRE 20": 2.19
   }
 ];
-// Asignar a window para acceso global
 window.datosCSV = datosCSV;
